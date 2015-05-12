@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'sourcesanspro_light';
+    src: url('../fonts/sourcesanspro_light.eot');
+    src: url('../fonts/sourcesanspro_light.eot') format('embedded-opentype'),
+         url('../fonts/sourcesanspro_light.woff2') format('woff2'),
+         url('../fonts/sourcesanspro_light.woff') format('woff'),
+         url('../fonts/sourcesanspro_light.ttf') format('truetype'),
+         url('../fonts/sourcesanspro_light.svg#sourcesanspro_light') format('svg');
+}
+@font-face {
+    font-family: 'NotoSansRegular';
+    src: url('../fonts/NotoSansRegular.eot');
+    src: url('../fonts/NotoSansRegular.eot') format('embedded-opentype'),
+         url('../fonts/NotoSansRegular.woff2') format('woff2'),
+         url('../fonts/NotoSansRegular.woff') format('woff'),
+         url('../fonts/NotoSansRegular.ttf') format('truetype'),
+         url('../fonts/NotoSansRegular.svg#NotoSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'lh_line1_sansthin';
+    src: url('../fonts/LH-Line1-Sans-Thin-webfont.eot');
+    src: url('../fonts/LH-Line1-Sans-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/LH-Line1-Sans-Thin-webfont.woff2') format('woff2'),
+         url('../fonts/LH-Line1-Sans-Thin-webfont.woff') format('woff'),
+         url('../fonts/LH-Line1-Sans-Thin-webfont.ttf') format('truetype'),
+         url('../fonts/LH-Line1-Sans-Thin-webfont.svg#lh_line1_sansthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

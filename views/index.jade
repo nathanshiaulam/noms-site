@@ -1,0 +1,51 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        title Noms
+        link(href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700', rel='stylesheet', type='text/css')
+        link(href='http://fonts.googleapis.com/css?family=Pacifico:400', rel='stylesheet', type='text/css')
+        link(href='stylesheets/onepage-scroll.css', rel='stylesheet', type='text/css')
+        link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
+        link(href='stylesheets/main.css', rel='stylesheet', type='text/css')
+        meta(name='viewport', content='initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no')
+    body
+        .wrapper
+            .main
+                section.page1
+                    .page_container
+                        div.col-md-6
+                            h1 Noms
+                            h2 We love food, and we know how hard it can be to choose where to eat. Never lose a meal to indecision again.
+                            img.download-button(src="images/appledownload.png")
+                        div.col-md-6
+                            img.container-image(src="images/nomsscreen.png")
+                section.page2
+                    .overlay
+                        .page_container
+                            h1.header How it Works 
+                            .steps
+                                .col-md-4
+                                    i.fa.fa-tags
+                                    h2 Create a profile with a set of preferences
+                                .col-md-4
+                                    i.fa.fa-search
+                                    h2 Get matched with restaurants that fit your preferences.
+                                .col-md-4     
+                                    i.fa.fa-street-view
+                                    h2 Map yourself to the restaurant and enjoy your meal! 
+                section.page3
+                    .overlay
+                        .page_container
+                            h1 Pretty Neat Eh?             
+                            h2 You can customise the animation timing, the selector or even the animation easing using CSS3. I can't wait to see what you guys will come up with. Don't forget to grab them for free on Github       
+    script(type='text/javascript', src='http://code.jquery.com/jquery-1.9.1.js')
+    script(type='text/javascript', src='javascripts/jquery.onepage-scroll.js')
+    script.
+        $(document).ready(function(){
+            $(".main").onepage_scroll({
+            sectionContainer: "section",
+            responsiveFallback: 600,
+            loop: true
+            });
+        });

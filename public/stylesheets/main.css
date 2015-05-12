@@ -1,0 +1,195 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css');
+@import url('fonts.css');
+
+/* Global Stuff */
+
+html {
+      height: 100%;
+}
+body {
+  background: #E2E4E7;
+  padding: 0;
+  text-align: center;
+  font-family: 'open sans';
+  position: relative;
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+	height: 100% !important;
+	height: 100%;
+	margin: 0 auto; 
+	overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h1, h2 {
+  width: 100%;
+  float: left;
+}
+h1 {
+  margin-top: 100px;
+  color: #000;
+  margin-bottom: 5px;
+  font-size: 75px;
+  letter-spacing: -4px;
+  font-family: "lh_line1_sansthin";
+  font-weight: bold;
+}
+
+h2 {
+  color: #6D461D;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "sourcesanspro_light";
+
+}
+
+.main {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main h1 {
+  padding:150px 50px;
+  float: left;
+  width: 100%;
+  font-size: 45px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-weight: 100;
+  color: white;
+  margin: 0;
+}
+
+.main section .page_container {
+  position: relative;
+  top: 15%;
+  margin: 0 auto 0;
+  max-width: 950px;
+  z-index: 3;
+}
+
+.main section  {
+  overflow: hidden;
+}
+
+/* END */
+
+/* First Section */
+
+.main section.page1 {
+  background:rgb(1, 202, 137);
+}
+.main section.page1 h1 {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 15px;
+  font-size: 70px;
+  color: #ECF0F1;
+  margin-top: 10%;
+}
+.main section.page1 h2 {
+  color: rgba(0,0,0,0.85);
+  text-align: center;
+   color: #ECF0F1;
+  font-weight: bold;
+  line-height: 160%;
+}
+.download-button {
+  width: 45%;
+  padding-top: 10px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  max-width: 230px;
+}
+.container-image {
+  width: 120%;
+  height: auto;
+}
+/* END */
+
+/* Second Section */
+
+.main section.page2 {
+  background:  url(../images/coverwallpaper.jpg) no-repeat left;
+  background-size: cover;
+}
+
+.main section.page2 .page_container {
+  overflow: hidden;
+}
+.main section.page2 h1 {
+  text-align: center;
+  padding: 0;
+  font-size: 50px;
+  letter-spacing: -1px;
+  color: white;
+  font-weight: bold;
+}
+.main section.page2 h2 {
+  color: rgba(255,255,255,0.85);
+  text-align: center;
+  line-height: 160%;
+  font-weight: 100;
+  font-weight: bold;
+}
+.steps { 
+  padding-top: 15%;
+}
+.fa {
+  font-size: 4em;
+  text-align: center;
+  color: #ECF0F1;
+  padding-bottom: 20px;
+}
+.step-image {
+  width: 75%;
+  height: auto;
+}
+/* End */
+
+/* Third Section */
+.main section.page3 {
+  background:url(../images/cutebentobackground.jpg) no-repeat left;
+  background-size: cover;
+}
+.main section.page3 .page_container {
+  overflow: hidden;
+  width: 500px;
+  right: -285px;
+}
+.main section.page3 h1 {
+  text-align: left;
+  padding: 0;
+  margin-bottom: 0;
+
+  font-size: 70px;
+  letter-spacing: -1px;
+  color: #ECF0F1;
+}
+.main section.page3 h2 {
+  color: #ECF0F1;
+  text-align: left;
+  line-height: 160%;
+  font-weight: bold;
+  font-size: 2em;
+  padding-top: 10%;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.65);
+}
+/* End */
